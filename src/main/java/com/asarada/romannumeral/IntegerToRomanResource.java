@@ -17,9 +17,9 @@ public class IntegerToRomanResource {
             Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
     FileHandler fh;
 
-    public void IntegerToRoman() {
+    public void initLogFile() {
         try {
-            fh = new FileHandler("IntegerToRoman.xml",true);
+            fh = new FileHandler("../logs/IntegerToRoman.xml",true);
             LOGGER.addHandler(fh);
         }catch(Exception e){
             System.out.println("Logging Exception....");
@@ -31,11 +31,14 @@ public class IntegerToRomanResource {
     @GET
     @Produces("application/json")
     public String getQueryResults(@Context UriInfo info){
+        this.initLogFile();
         String query=info.getQueryParameters().getFirst("query");
         if (query != null)
           return this.getIntToRoman(query);
-        else
+        else {
+            LOGGER.severe("Missing query parameters in url, Eg. Usage: http://localhost:8080/romannumeral/?query=123");
             return "{\"Error\":\"Missing query parameters in url, Eg. Usage: http://localhost:8080/romannumeral/?query=123\"}";
+        }
     }
 
     @Produces("application/json")
