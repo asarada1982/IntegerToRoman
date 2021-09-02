@@ -19,7 +19,7 @@ public class IntegerToRomanResource {
 
     public void initLogFile() {
         try {
-            fh = new FileHandler("../logs/IntegerToRoman.xml",true);
+            fh = new FileHandler("../logs/IntegerToRoman1.xml");
             LOGGER.addHandler(fh);
         }catch(Exception e){
             System.out.println("Logging Exception....");

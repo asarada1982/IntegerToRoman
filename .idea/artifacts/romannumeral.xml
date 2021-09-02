@@ -1,33 +1,14 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="romannumeral">
-    <output-path>$PROJECT_DIR$/target/romannumeral</output-path>
+  <artifact type="war" name="romannumeral">
+    <output-path>$PROJECT_DIR$/target</output-path>
     <properties id="maven-jee-properties">
       <options>
-        <exploded>true</exploded>
         <module>Assignment_1</module>
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="root">
-      <element id="directory" name="WEB-INF">
-        <element id="directory" name="classes">
-          <element id="module-output" name="Assignment_1" />
-        </element>
-        <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.1" />
-          <element id="library" level="project" name="Maven: javax.ws.rs:javax.ws.rs-api:2.1.1" />
-          <element id="library" level="project" name="Maven: org.apiguardian:apiguardian-api:1.1.0" />
-          <element id="library" level="project" name="Maven: org.junit.jupiter:junit-jupiter-api:5.7.0" />
-          <element id="library" level="project" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.7.0" />
-          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-commons:1.7.0" />
-          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-engine:1.7.0" />
-          <element id="library" level="project" name="Maven: org.opentest4j:opentest4j:1.2.0" />
-          <element id="javaee-facet-resources" facet="Assignment_1/web/Web" />
-        </element>
-      </element>
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/romannumeral-1/META-INF/MANIFEST.MF" />
-      </element>
+    <root id="archive" name="romannumeral.war">
+      <element id="artifact" artifact-name="romannumeral_exploded" />
     </root>
   </artifact>
 </component>
