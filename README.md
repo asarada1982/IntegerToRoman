@@ -13,7 +13,7 @@ Step 2: docker run -it --rm -p 8080:8080 asarada/assignment
 Accessing the Program using rest API(get) below.
 Usage: http://localhost:8080/romannumeral/?query=1001
 
-### Option 2: Cloning Git repository
+### Option 2: Deploying pre built war file
 Step 1: Download <a href="https://github.com/asarada1982/assignment_1/blob/main/target/romannumeral.war">romannumeral.war</a>
 Step 2: Deploy it on any Web Application server
 
