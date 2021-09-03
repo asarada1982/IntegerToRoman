@@ -2,6 +2,8 @@
   Rest API to convert integer to a roman number, for integers between 1-3999.
 
 ## How to build and run this project?
+### Option 1: Docker Image
+docker pull asarada1982/assignment
 
 
 ## Your engineering and testing methodology
