@@ -48,3 +48,17 @@ Web Archive: assignment_1/target/romannumeral.war
 ## Dependency attribution?
 All the library dependencies are resolved/pulled using maven <br>
 POM file location : assignment_1/pom.xml 
+
+## Java doc
+
+Location: assignment_1/doc/
+
+Usage: 
+Clone the reposit
+
+Step 1: git clone https://github.com/asarada1982/assignment_1.git
+Step 2: Navigate to assignment_1/doc/
+Step 3: Open index.html
+
+
+
