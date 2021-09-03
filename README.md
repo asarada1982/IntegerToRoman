@@ -1,11 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# assignment_1
-=======
-# assignment_1
-=======
 # API to convert Integer to Roman Number
->>>>>>> master
   Rest API to convert integer to a roman number, for integers between 1-3999.
 
 ## How to build and run this project?
@@ -56,12 +49,9 @@ assignment_1/src/test/java/com/asarada/romannumeral/
 
 Web Archive: assignment_1/target/romannumeral.war
 
-<<<<<<< HEAD
-##Dependency attribution?
+## Dependency attribution?
 pom.xml included has all the dependencies.
->>>>>>> master
-=======
+
 ## Dependency attribution?
 All the library dependencies are resolved/pulled using maven 
 assignment_1/pom.xml 
->>>>>>> master
