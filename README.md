@@ -15,15 +15,31 @@ Usage: http://localhost:8080/romannumeral/?query=1001
 
 ### Option 2: Cloning Git repository 
 
-Step 1: Clone git repository using following 
+Step 1: git clone https://github.com/asarada1982/assignment_1.git
 
+Step 2: Open any Maven supported ide. (This project is created using IntelliJ)
+
+Step 3: Open the project from cloned directory
+
+Step 4: Build the Project
+
+Step 5: Deploy the war file on the Web application Server.
 
 
 
 ## Your engineering and testing methodology
-Junit test cases included with the project
 
-##Your packaging layout
+1. junit test cases had been build and the method is tested using junit
+2. by accessing the rest api.
 
-##Dependency attribution?
-pom.xml included has all the dependencies.
+
+## Your packaging layout
+
+Source Code path: assignment_1/src/main/java/com/asarada/romannumeral/
+junit test case source: assignment_1/src/test/java/com/asarada/romannumeral/
+
+Web Archive: assignment_1/target/romannumeral.war
+
+## Dependency attribution?
+All the library dependencies are resolved/pulled using maven 
+assignment_1/pom.xml 
