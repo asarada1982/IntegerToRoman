@@ -53,5 +53,5 @@ Web Archive: assignment_1/target/romannumeral.war
 pom.xml included has all the dependencies.
 
 ## Dependency attribution?
-All the library dependencies are resolved/pulled using maven 
-assignment_1/pom.xml 
+All the library dependencies are resolved/pulled using maven <br>
+POM file location : assignment_1/pom.xml 
