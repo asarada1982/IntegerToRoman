@@ -10,6 +10,10 @@ import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * This class has a method to convert integer number to a roman number.
+ */
+
 @Path("/")
 public class IntegerToRomanResource {
 
@@ -17,7 +21,7 @@ public class IntegerToRomanResource {
             Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
     FileHandler fh;
 
-    public void initLogFile() {
+    private void initLogFile() {
         try {
             fh = new FileHandler("../logs/IntegerToRoman1.xml");
             LOGGER.addHandler(fh);
@@ -28,6 +32,14 @@ public class IntegerToRomanResource {
         LOGGER.setLevel(Level.ALL);
     }
 
+    /**
+     *
+     * @param info is a URL in with query parameter
+     *  Syntax - http://ipaddress:port/appname"/?query={number}
+     *  eg: http://localhost:8080/romannumeral/?query=123
+     *
+     * @return result is JSON Format with interger input and output in Roman number.
+     */
     @GET
     @Produces("application/json")
     public String getQueryResults(@Context UriInfo info){
@@ -41,6 +53,15 @@ public class IntegerToRomanResource {
         }
     }
 
+    /**
+     *
+     * @param input accept string of number from 1 - 3999
+     * @return will be the JSON string with output in following format
+     * {
+     * “input” : “1”,
+     * “output” : “I”
+     * }
+     */
     @Produces("application/json")
     public String getIntToRoman(String input) {
 
