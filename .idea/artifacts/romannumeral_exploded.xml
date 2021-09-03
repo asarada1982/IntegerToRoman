@@ -23,6 +23,7 @@
           <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-engine:1.7.0" />
           <element id="library" level="project" name="Maven: org.opentest4j:opentest4j:1.2.0" />
           <element id="javaee-facet-resources" facet="Assignment_1/web/Web" />
+          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-launcher:1.7.2" />
         </element>
       </element>
       <element id="directory" name="META-INF">
