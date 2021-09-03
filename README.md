@@ -29,13 +29,14 @@ Step 5: Deploy the war file on the Web application Server.
 
 
 
-## Your engineering and testing methodology
+## Engineering and testing methodology
 
 1. junit test cases had been build and the method is tested using junit<br>
-2. by accessing the rest api.
+2. Source code is tested using junit test case <br>
+3. by accessing the rest api.
 
 
-## Your packaging layout
+## packaging layout
 
 ### Source Code path
 assignment_1/src/main/java/com/asarada/romannumeral/ <br>
@@ -44,7 +45,7 @@ assignment_1/src/main/java/com/asarada/romannumeral/ <br>
 assignment_1/src/test/java/com/asarada/romannumeral/<br>
 Web Archive: assignment_1/target/romannumeral.war
 
-## Dependency attribution?
+## Dependency attribution
 All the library dependencies are resolved/pulled using maven <br>
 POM file location : assignment_1/pom.xml 
 
