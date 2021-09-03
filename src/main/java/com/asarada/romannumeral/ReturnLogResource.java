@@ -15,7 +15,11 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 
-
+/**
+ * To get log in xml format
+ * usage:    - http://ipaddress:port/APPNAME/getLog
+ * eg: http://localhost:8080/romannumeral/getLog
+ */
 @Path("/getLog")
 public class ReturnLogResource {
     @GET
