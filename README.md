@@ -6,7 +6,7 @@
 ### Cloning Git repository 
 
 Step 1: git clone https://github.com/asarada1982/IntegerToRoman.git <br>
-Step 2: Open any Maven supported ide. (This project is created using IntelliJ) <br>
+Step 2: Open any Maven supported IDE.  <br>
 Step 3: Open the project from cloned directory <br>
 Step 4: Build the Project <br>
 Step 5: Deploy the war file on the Web application Server.
