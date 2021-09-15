@@ -3,23 +3,7 @@
 
 ## How to build and run this project?
 
-### Option 1: Using Docker Image
-
-Execute following docker commands 
-
-Step 1: docker pull asarada1982/assignment <br>
-Step 2: docker run -it --rm -p 8080:8080 asarada/assignment <br>
-
-Accessing the Program using rest API(get) below.
-Usage: http://localhost:8080/romannumeral/?query=1001
-
-### Option 2: Deploying pre built war file
-Step 1: Download <a href="https://github.com/asarada1982/assignment_1/blob/main/target/romannumeral.war">romannumeral.war</a> <br>
-Step 2: Deploy it on any Web Application server <br><br>
-
-Usage: http://localhost:port/romannumeral/?query=1001
-
-### Option 3: Cloning Git repository 
+### Cloning Git repository 
 
 Step 1: git clone https://github.com/asarada1982/assignment_1.git <br>
 Step 2: Open any Maven supported ide. (This project is created using IntelliJ) <br>
