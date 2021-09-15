@@ -23,23 +23,23 @@ Step 5: Deploy the war file on the Web application Server.
 ## packaging layout
 
 ### Source Code path
-assignment_1/src/main/java/com/asarada/romannumeral/ <br>
+IntegerToRoman/src/main/java/com/asarada/romannumeral/ <br>
 
 ### junit test case source path
-assignment_1/src/test/java/com/asarada/romannumeral/<br>
-Web Archive: assignment_1/target/romannumeral.war
+IntegerToRoman/src/test/java/com/asarada/romannumeral/<br>
+Web Archive: IntegerToRoman/target/romannumeral.war
 
 ## Dependency attribution
 All the library dependencies are resolved/pulled using maven <br>
-POM file location : assignment_1/pom.xml 
+POM file location : IntegerToRoman/pom.xml 
 
 ## Java doc
 
-Location: assignment_1/doc/
+Location: IntegerToRoman/doc/
 
 Usage: 
 Clone the reposit<br><br>
 
 Step 1: git clone https://github.com/asarada1982/IntegerToRoman.git <br>
-Step 2: Navigate to assignment_1/doc/<br>
+Step 2: Navigate to IntegerToRoman/doc/<br>
 Step 3: Open index.html
