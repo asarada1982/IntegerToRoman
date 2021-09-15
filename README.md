@@ -11,28 +11,6 @@ Step 3: Open the project from cloned directory <br>
 Step 4: Build the Project <br>
 Step 5: Deploy the war file on the Web application Server.
 
-
-
-## Engineering and testing methodology
-
-1. junit test cases had been build and the method is tested using junit<br>
-2. Source code is tested using junit test case <br>
-3. by accessing the rest api.
-
-
-## packaging layout
-
-### Source Code path
-IntegerToRoman/src/main/java/com/asarada/romannumeral/ <br>
-
-### junit test case source path
-IntegerToRoman/src/test/java/com/asarada/romannumeral/<br>
-Web Archive: IntegerToRoman/target/romannumeral.war
-
-## Dependency attribution
-All the library dependencies are resolved/pulled using maven <br>
-POM file location : IntegerToRoman/pom.xml 
-
 ## Java doc
 
 Location: IntegerToRoman/doc/
