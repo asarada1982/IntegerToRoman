@@ -40,6 +40,6 @@ Location: assignment_1/doc/
 Usage: 
 Clone the reposit<br><br>
 
-Step 1: git clone https://github.com/asarada1982/assignment_1.git<br>
+Step 1: git clone https://github.com/asarada1982/IntegerToRoman.git <br>
 Step 2: Navigate to assignment_1/doc/<br>
 Step 3: Open index.html
